@@ -15,7 +15,7 @@
 
 - Display ansible diagram:
 
-<img src="images/website-.png" width="700" height="400">
+<img src="images/website--.png" width="700" height="400">
 
 # For reference:
 
