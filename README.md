@@ -10,6 +10,8 @@ PLAY2: Install GIT on Ubuntu clients.
 
 <img src="images/diagram.drawio.png" width="500" height="400">
 
+
+
 For reference:
 
 - https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html 
