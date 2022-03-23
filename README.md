@@ -11,7 +11,9 @@
 <img src="images/diagram.drawio.png" width="500" height="400">
 
 
-# website outcome:
+# website:
+
+- Display ansible diagram:
 
 <img src="images/website.png" width="700" height="400">
 
