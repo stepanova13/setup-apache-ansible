@@ -2,39 +2,39 @@
 - name: Install Apache on Ubuntu instances  # PLAY 1
   hosts: ubuntuclients
   tasks: #a list of actions      # 5 tasks:
-  - name: Update all packages to their latest version #apt update -y  #task 1
-    apt:  # MODULE 1
-      name: "*"
-      state: latest
-  - name: Install apache httpd  #apt install httpd  #task 2
-    apt:
-      name: apache2
-      state: present
-  - name: Start service httpd, if not started #systemctl start httpd  #task 3
-    ansible.builtin.service:   # MODULE 2
-      name: apache2
-      state: started
-  - name: Enable service httpd, and not touch the state  #systemctl enable httpd  #task 4
-    ansible.builtin.service:
-      name: apache2
-      enabled: yes
-  - name: Copy index file from controller to the clients   #task 5
-    ansible.builtin.copy:  # MODULE 3
-      src: /home/ubuntu/index.html  #in the controller
-      dest: /var/www/html/  #in the clients
+    - name: Update all packages to their latest version #apt update -y  #task 1
+      apt:  # MODULE 1
+        name: "*"
+        state: latest
+    - name: Install apache httpd  #apt install httpd  #task 2
+      apt:
+        name: apache2
+        state: present
+    - name: Start service httpd, if not started #systemctl start httpd  #task 3
+      ansible.builtin.service:   # MODULE 2
+        name: apache2
+        state: started
+    - name: Enable service httpd, and not touch the state  #systemctl enable httpd  #task 4
+      ansible.builtin.service:
+        name: apache2
+        enabled: yes
+    - name: Copy index file from controller to the clients   #task 5
+      ansible.builtin.copy:  # MODULE 3
+        src: /home/ubuntu/index.html  #in the controller
+        dest: /var/www/html/  #in the clients
 #WRITE A PLAY TO INSTALL GIT
 - name: Install GIT on the Ubuntu clients.  #PLAY 2
   hosts: ubuntuclients
   tasks:
-  - name: Update repository
-    apt_repository:
-      repo: 'ppa:git-core/ppa'
-      state: present
-  - name: Install git
-    apt:
-      name: git
-      state: present
-      update_cache: yes
+    - name: Update repository
+      apt_repository:
+        repo: 'ppa:git-core/ppa'
+        state: present
+    - name: Install git
+      apt:
+        name: git
+        state: present
+        update_cache: yes
   
 
   
