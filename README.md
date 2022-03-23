@@ -11,6 +11,9 @@
 <img src="images/diagram.drawio.png" width="500" height="400">
 
 
+# website outcome:
+
+<img src="images/website.png" width="500" height="400">
 
 # for reference:
 
