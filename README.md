@@ -7,6 +7,7 @@ PLAY1: Setup an Apache Webserver on Ubuntu clients.
 PLAY2: Install GIT on Ubuntu clients.
 
 - Diagram:
+
 ![](images/diagram.drawio.png)
 
 For reference:
