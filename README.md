@@ -8,6 +8,7 @@ PLAY2: Install GIT on Ubuntu clients.
 
 - Diagram:
 
+<img src="images/diagram.drawio.png" width="100" height="100">
 ![](images/diagram.drawio.png =100x100)
 
 For reference:
