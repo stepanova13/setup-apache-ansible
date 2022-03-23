@@ -13,7 +13,7 @@
 
 # website outcome:
 
-<img src="images/website.png" width="500" height="400">
+<img src="images/website.png" width="500" height="700">
 
 # for reference:
 
