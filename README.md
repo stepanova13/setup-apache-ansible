@@ -6,13 +6,13 @@ PLAY1: Setup an Apache Webserver on Ubuntu clients.
 
 PLAY2: Install GIT on Ubuntu clients.
 
-# Diagram:
+# diagram:
 
 <img src="images/diagram.drawio.png" width="500" height="400">
 
 
 
-# For reference:
+# for reference:
 
 - https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html 
 - https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_module.html 
