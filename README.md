@@ -17,7 +17,7 @@
 
 <img src="images/website.png" width="700" height="400">
 
-# for reference:
+# For reference:
 
 # Ansible officiral documentation:
 
